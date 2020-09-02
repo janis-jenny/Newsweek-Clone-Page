@@ -11,7 +11,16 @@
   height: 150px;
 }
 
-.top-footer svg {
+svg {
   width: 251px;
   height: 48px;
+}
+
+.brand svg {
+  width: 132px;
+  height: 20px;
+}
+
+header {
+  background-color: red;
 }
