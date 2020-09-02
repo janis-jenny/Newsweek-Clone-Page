@@ -19,6 +19,7 @@ svg {
 .brand svg {
   width: 132px;
   height: 20px;
+  fill: #fff;
 }
 
 header {
