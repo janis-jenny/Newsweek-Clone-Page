@@ -154,6 +154,11 @@ header {
   max-height: 737px;
 }
 
+.themagazine {
+  min-width: 400px;
+  min-height: 366px;
+}
+
 .news-icon {
   width: 29px;
   height: 28px;
@@ -169,6 +174,10 @@ header {
   max-height: 230px;
 }
 
+.related img {
+  width: 95px;
+  height: 95px;
+}
 
 
 @media screen and (min-width: 768px) {
