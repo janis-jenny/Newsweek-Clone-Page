@@ -1,3 +1,11 @@
+.heading-color {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.red-color {
+  color: #f72210;
+}
+
 .article-title {
   font-size: 16px;
 }
@@ -65,6 +73,20 @@ header {
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
 }
+
+/*
+  ===========================================================
+                ARTICLES
+  ===========================================================
+*/
+
+.category a {
+  background: red;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 @media screen and (min-width: 992px) {
   .brand svg {
     width: 395px;

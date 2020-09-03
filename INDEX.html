@@ -44,7 +44,7 @@
       </div>
     </div>
   </header>
-  <nav>
+  <nav class="d-none d-lg-block">
     <div>
       <ul class="nav-top bg-white d-flex flex-row justify-content-around m-0 p-2">
         <li><a href="">U.S.</a></li>
@@ -73,103 +73,123 @@
       </ul>
     </div>
   </nav>
-  <main class="container-fluid">
+  <main class="container-fluid mt-4">
     <div class="row">
         <section class=" left-section col-12 col-sm-12 col-md-6 col-lg-4">
         <article class="card-special mb-5">
-          <h1 class="h6 text-muted font-weight-bold">Top Story</h1>
-          <a class="d-block" href="#"><img
+          <h1 class="h6 text-uppercase  font-weight-bold heading-color">Top Story</h1>
+          <div class="position-relative">
+          <a class="article__img d-block" href="#"><img
               src="https://d.newsweek.com/en/full/1630656/china-aircraft-carrier-navy-parade.jpg?w=591&h=364&f=3bf7142266294ecb452043afd07b95c2"
               alt="" />
-            <div class="category">
-              <a href="#">WORLD</a>
+            </a>
+            <div class="category ">
+              <a class="position-absolute p-2 red-color" href="#">WORLD</a>
             </div>
-          </a>
-          <h2>
+          </div>
+          <h2 class="h5 font-weight-bold mt-2">
             <a class="secondary-link" href="#">Pentagon Report Finds China Tops U.S. in Ships, Missiles and Air
               Defense</a>
           </h2>
           <p>
+            <small>
             "[T]he PRC has marshalled the resources, technology, and political
             will over the past two decades to strengthen and modernize the PLA
             in nearly every respect," the Pentagon found.
+          </small>
           </p>
         </article>
         <article class="card ">
-          <h1>FEATURED STORIES</h1>
+          <h1 class="h6 text-uppercase  font-weight-bold heading-color">Featured Stories</h1>
+          <div class="position-relative">
           <a href="#"><img
               src="https://d.newsweek.com/en/full/1630588/donald-trump.jpg?w=397&h=265&q=90&f=9edb8af8be4c527e30bf2108c2a03197"
               alt="" />
+            </a>
             <div class="category">
-              <a href="#">U.S.</a>
+              <a class="position-absolute p-2 red-color" href="#">U.S.</a>
             </div>
-          </a>
-          <h2>
+          </div>
+          <h2 class="h5 font-weight-bold mt-2">
             <a href="#">Trump Dismisses Rumors He Suffered 'Series of Mini-Strokes'</a>
           </h2>
           <p>
+            <small>
             "Did @realDonaldTrump have a stroke which he is hiding from the
             American public?" CNN analyst Joe Lockhart asked on Twitter.
+            </small>
           </p>
         </article>
         <article class="card">
+          <div class="position-relative">
           <a href="#"><img
               src="https://d.newsweek.com/en/full/1630597/indianapolis-peaceful-protest-blm-banks.jpg?w=397&h=265&q=90&f=1524f5ba27ff8fa3eb4d3f244734eca1"
               alt="" />
+            </a>
             <div class="category">
-              <a href="#">WORLD</a>
+              <a class="position-absolute p-2 red-color" href="#">WORLD</a>
             </div>
-          </a>
-          <h2>
+          </div>
+          <h2 class="h5 font-weight-bold mt-2">
             <a href="#">GOP Bill Strips 'Jobless Rioters' of Unemployment Benefits, Must
               Pay Police</a>
           </h2>
           <p>
+            <small>
             Indiana GOP Rep. Jim Banks' bill would block "jobless rioters" from
             receiving federal unemployment benefits and force those convicted to
             pay restitution to arresting police officers.
+            </small>
           </p>
         </article>
         <article class="card">
-          <h1>Top Story</h1>
+          <h1 class="h6 text-uppercase  font-weight-bold heading-color">Top Story</h1>
+          <div class="position-relative">
           <a href="#"><img
               src="https://d.newsweek.com/en/full/1630353/kenosha-demonstration.jpg?w=397&h=265&q=90&f=c4590f778bffdea7fdc4baae5dad5776"
               alt="" />
+            </a>
             <div class="category">
-              <a href="#">WORLD</a>
+              <a class="position-absolute p-2 red-color" href="#">WORLD</a>
             </div>
-          </a>
-          <h2>
+          </div>
+          <h2 class="h5 font-weight-bold mt-2">
             <a href="#">Trump Visit Divides Kenosha Officials As City Braces for Fresh
               Unrest</a>
           </h2>
           <p>
+            <small>
             The president credited the National Guard for saving the Wisconsin
             city, which has been the scene of violence since the shooting of
             Jacob Blake.
+            </small>
           </p>
         </article>
         <article class="card">
-          <a href="#"><img
+           <div class="position-relative">
+            <a href="#"><img
               src="https://d.newsweek.com/en/full/1630438/biden.jpg?w=397&h=265&q=90&f=06bc50f4f56adc4e7a54150f8701a058"
               alt="" />
+            </a>
             <div class="category">
-              <a href="#">POLITICS</a>
+              <a class="position-absolute p-2 red-color" href="#">POLITICS</a>
             </div>
-          </a>
-          <h2>
+          </div> 
+          <h2 class="h5 font-weight-bold mt-2">
             <a href="#">Lincoln Project Urges Biden to Be More Visible As 2020 Election
               Nears</a>
           </h2>
           <p>
+            <small>
             The group has said while it can push pro-Biden and anti-Trump
             messaging, the Democrat himself needs to up his campaigning to take
             on the Republican.
+            </small>
           </p>
         </article>
      
 
-        <ul>
+        <ul class="my-4">
           <li>
             <a href="#">Trump Is Heading for a 'Red Mirage' Win on Election Night,
               Bloomberg-Funded Data Firm Says</a>
@@ -181,20 +201,24 @@
         </ul>
       
       <article class="card-special">
-        <a href="#"><img
+        <div class="position-relative">
+          <a href="#"><img
             src="https://d.newsweek.com/en/full/1630599/paycheck-protection-program.jpg?w=397&h=265&q=90&f=1212ce0d6702fdcdfc8305b18a2bf76c"
             alt="" />
+          </a>
           <div class="category">
-            <a href="#">WORLD</a>
+            <a class="position-absolute p-2 red-color" href="#">WORLD</a>
           </div>
-        </a>
-        <h2>
+        </div>
+        <h2 class="h5 font-weight-bold mt-2">
           <a href="#">Nearly $100 Million in PPP Loans Given to Ineligible Companies</a>
         </h2>
         <p>
+          <small>
           A Tuesday report from Congress's Coronavirus Crisis Subcommittee
           suggested a "high risk for fraud, waste, and abuse" within the
           Paycheck Protection Program.
+          </small>
         </p>
       </article>
     </section>
