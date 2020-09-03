@@ -97,3 +97,13 @@ header {
     height: 60px;
   }
 }
+
+.info-container img {
+  width: 65px;
+  height: 65px;
+}
+
+.User img {
+  width: 65px;
+  height: 65px;
+}
