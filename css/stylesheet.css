@@ -6,6 +6,10 @@
   color: #f72210;
 }
 
+.white {
+  color: #fff;
+}
+
 .article-title {
   font-size: 16px;
 }
@@ -24,9 +28,6 @@
                 HEADER
   ===========================================================
 */
-.white {
-  color: #fff;
-}
 
 svg {
   width: 251px;
@@ -91,11 +92,9 @@ header {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-@media screen and (min-width: 992px) {
-  .brand svg {
-    width: 395px;
-    height: 60px;
-  }
+.debate img {
+  width: 65px;
+  height: 65px;
 }
 
 .info-container img {
@@ -106,4 +105,52 @@ header {
 .User img {
   width: 65px;
   height: 65px;
+}
+
+.info-container > p {
+  line-height: 15px;
+}
+
+.myturn,
+.story > * + * {
+  margin-top: 70px;
+  clear: left;
+}
+
+/*
+===========================================================
+                VS DIVISION
+ ==========================================================
+*/
+
+.c-vs::before,
+.c-vs::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #d9d9d9;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+
+.c-vs::before {
+  top: calc(50% - 2px);
+}
+
+.vs {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .brand svg {
+    width: 395px;
+    height: 60px;
+  }
 }
