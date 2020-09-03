@@ -47,6 +47,24 @@ header {
   color: #000;
 }
 
+.nav-top * + * {
+  border-left: 1px solid #d9d9d9;
+  padding-left: 8px;
+}
+
+.search input {
+  border: none;
+  width: 50px;
+}
+
+.search {
+  border-left: none;
+}
+
+.nav-bottom {
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
 @media screen and (min-width: 992px) {
   .brand svg {
     width: 395px;
