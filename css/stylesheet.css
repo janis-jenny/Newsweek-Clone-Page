@@ -148,9 +148,40 @@ header {
   z-index: 1;
 }
 
+.myturn img {
+  max-width: 737px;
+  max-height: 737px;
+}
+
+@media screen and (min-width: 768px) {
+  .myturn img {
+    width: 120px;
+    height: 120px;
+  }
+
 @media screen and (min-width: 992px) {
   .brand svg {
     width: 395px;
     height: 60px;
   }
+}
+
+.news-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.first-img {
+  max-width: 345px;
+  max-height: 460px;
+}
+
+.next-img {
+  max-width: 345px;
+  max-height: 230px;
+}
+
+.badge {
+  width: 8rem;
+  height: 3rem;
 }
