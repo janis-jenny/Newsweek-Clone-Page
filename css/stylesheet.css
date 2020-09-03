@@ -11,6 +11,15 @@
   height: 150px;
 }
 
+/*
+  ===========================================================
+                HEADER
+  ===========================================================
+*/
+.white {
+  color: #fff;
+}
+
 svg {
   width: 251px;
   height: 48px;
@@ -23,5 +32,24 @@ svg {
 }
 
 header {
-  background-color: red;
+  background-color: #f72210;
+}
+
+.login {
+  background: none;
+  border: none;
+}
+
+.subs-btn {
+  background-color: #ffe400;
+  border: none;
+  border-radius: 25px;
+  color: #000;
+}
+
+@media screen and (min-width: 992px) {
+  .brand svg {
+    width: 395px;
+    height: 60px;
+  }
 }
