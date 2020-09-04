@@ -113,7 +113,7 @@ header {
 
 .myturn,
 .story > * + * {
-  margin-top: 70px;
+  margin-top: 30px;
   clear: left;
 }
 
@@ -173,9 +173,18 @@ header {
   margin-top: 20px;
 }
 
-.text {
-  padding-top: 20px;
-  font-size: 20px;
+/*
+===========================================================
+                FOOTER
+ ==========================================================
+*/
+
+.top-footer i {
+  font-size: 26px;
+}
+
+.top-footer svg {
+  fill: #f72210;
 }
 
 @media screen and (min-width: 768px) {
@@ -184,6 +193,7 @@ header {
     width: 120px;
     height: 120px;
   }
+}
 
 @media screen and (min-width: 992px) {
   .brand svg {
