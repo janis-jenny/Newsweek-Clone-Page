@@ -50,6 +50,7 @@ header {
 }
 
 .subs-btn {
+  font-size: 15px;
   background-color: #ffe400;
   border: none;
   border-radius: 25px;
@@ -58,7 +59,10 @@ header {
 
 .nav-top * + * {
   border-left: 1px solid #d9d9d9;
-  padding-left: 23px;
+}
+
+.nav-top a {
+  font-size: 18px;
 }
 
 .search input {
@@ -203,5 +207,9 @@ header {
   .brand svg {
     width: 395px;
     height: 60px;
+  }
+
+  .subs-btn {
+    font-size: 20px;
   }
 }
