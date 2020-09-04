@@ -37,7 +37,7 @@
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/janis-jenny/The-Next-Web-Clone-Page/issues).
+Feel free to check the [issues page](https://github.com/janis-jenny/Newsweek-Clone-Page/issues/1).
 
 ## Show your support
 
