@@ -19,15 +19,13 @@
 }
 
 .related img {
-  width: 93px;
-  height: 93px;
+  width: 95px;
+  height: 95px;
 }
 
 .news__img {
   height: 150px;
 }
-
-
 
 .main-container {
   max-width: 1310px;
@@ -54,16 +52,17 @@ svg {
 
 header {
   background-color: #f72210;
-  clip-path: polygon(
-    30% 0%,
-    100% 0,
-    100% 100%,
-    100% 100%,
-    94% 100%,
-    92% 89%,
-    0 88%,
-    0 0
-  );
+  clip-path:
+    polygon(
+      30% 0%,
+      100% 0,
+      100% 100%,
+      100% 100%,
+      94% 100%,
+      92% 89%,
+      0 88%,
+      0 0
+    );
 }
 
 .login {
@@ -147,10 +146,6 @@ header {
   clear: left;
 }
 
-
-
-
-
 /*
 ===========================================================
                 INTERNATIONAL NEWS
@@ -199,29 +194,20 @@ header {
   max-height: 737px;
 }
 
-
-
 .news-icon {
   width: 29px;
   height: 28px;
-}
-
-.related img {
-  width: 95px;
-  height: 95px;
 }
 
 .related > article {
   margin-top: 20px;
 }
 
-
 /*
 ===========================================================
                     FORM
  ==========================================================
 */
-
 
 .img-form-container img {
   width: 170px;
@@ -237,9 +223,6 @@ header {
 .form__info {
   padding-top: 196px;
 }
-
-
-
 
 /*
 ===========================================================
@@ -279,7 +262,6 @@ header {
   }
 
   .form__info {
-    padding-top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -288,7 +270,7 @@ header {
   }
 
   .bg-body {
-    height:245px;
+    height: 245px;
   }
 }
 
@@ -301,15 +283,11 @@ header {
   .subs-btn {
     font-size: 20px;
   }
-
 }
 
 @media screen and (min-width: 1224px) {
- 
-
- .news__img {
+  .news__img {
     min-width: 390px;
     height: 220px;
   }
 }
-
