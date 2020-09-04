@@ -10,6 +10,10 @@
   color: #fff;
 }
 
+.bg-body {
+  background-color: #f4f5f6;
+}
+
 .article-title {
   font-size: 16px;
 }
@@ -23,9 +27,7 @@
   height: 150px;
 }
 
-body {
-  background-color: #f4f5f6;
-}
+
 
 .main-container {
   max-width: 1310px;
@@ -145,6 +147,21 @@ header {
   clear: left;
 }
 
+
+
+
+
+/*
+===========================================================
+                INTERNATIONAL NEWS
+ ==========================================================
+*/
+
+.us > section {
+  max-width: 390px;
+  max-height: 220px;
+}
+
 /*
 ===========================================================
                 VS DIVISION
@@ -182,10 +199,7 @@ header {
   max-height: 737px;
 }
 
-.themagazine {
-  min-width: 400px;
-  min-height: 366px;
-}
+
 
 .news-icon {
   width: 29px;
@@ -200,6 +214,32 @@ header {
 .related > article {
   margin-top: 20px;
 }
+
+
+/*
+===========================================================
+                    FORM
+ ==========================================================
+*/
+
+
+.img-form-container img {
+  width: 170px;
+  height: 227px;
+  left: calc(35% - 85px);
+}
+
+.img-form-container img:last-child {
+  top: 17px;
+  left: 38%;
+}
+
+.form__info {
+  padding-top: 196px;
+}
+
+
+
 
 /*
 ===========================================================
@@ -233,6 +273,23 @@ header {
   .story {
     order: 1;
   }
+
+  .img-form-container {
+    min-width: 220px;
+  }
+
+  .form__info {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+
+  .bg-body {
+    height:245px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -244,4 +301,15 @@ header {
   .subs-btn {
     font-size: 20px;
   }
+
 }
+
+@media screen and (min-width: 1224px) {
+ 
+
+ .news__img {
+    min-width: 390px;
+    height: 220px;
+  }
+}
+
