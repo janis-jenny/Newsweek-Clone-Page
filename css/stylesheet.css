@@ -15,8 +15,8 @@
 }
 
 .related img {
-  max-width: 95px;
-  max-height: 63px;
+  width: 93px;
+  height: 93px;
 }
 
 .news__img {
@@ -164,20 +164,15 @@ header {
   height: 28px;
 }
 
-.first-img {
-  max-width: 345px;
-  max-height: 460px;
-}
-
-.next-img {
-  max-width: 345px;
-  max-height: 230px;
-}
-
 .related img {
   width: 95px;
   height: 95px;
 }
+
+.related > article {
+  margin-top: 20px;
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -193,4 +188,3 @@ header {
     height: 60px;
   }
 }
-
