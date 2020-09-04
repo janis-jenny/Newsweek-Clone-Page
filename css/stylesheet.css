@@ -52,6 +52,16 @@ svg {
 
 header {
   background-color: #f72210;
+  clip-path: polygon(
+    30% 0%,
+    100% 0,
+    100% 100%,
+    100% 100%,
+    94% 100%,
+    92% 89%,
+    0 88%,
+    0 0
+  );
 }
 
 .login {
@@ -211,6 +221,14 @@ header {
     width: 120px;
     height: 120px;
   }
+
+  .middle-section {
+    order: 1;
+  }
+
+.story {
+  order:1;
+}
 }
 
 @media screen and (min-width: 992px) {
