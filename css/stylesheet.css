@@ -1,0 +1,293 @@
+.heading-color {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.red-color {
+  color: #f72210;
+}
+
+.white {
+  color: #fff;
+}
+
+.bg-body {
+  background-color: #f4f5f6;
+}
+
+.article-title {
+  font-size: 16px;
+}
+
+.related img {
+  width: 95px;
+  height: 95px;
+}
+
+.news__img {
+  height: 150px;
+}
+
+.main-container {
+  max-width: 1310px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+/*
+  ===========================================================
+                HEADER
+  ===========================================================
+*/
+
+svg {
+  width: 251px;
+  height: 48px;
+}
+
+.brand svg {
+  width: 132px;
+  height: 20px;
+  fill: #fff;
+}
+
+header {
+  background-color: #f72210;
+  clip-path:
+    polygon(
+      30% 0%,
+      100% 0,
+      100% 100%,
+      100% 100%,
+      94% 100%,
+      92% 89%,
+      0 88%,
+      0 0
+    );
+}
+
+.login {
+  background: none;
+  border: none;
+}
+
+.subs-btn {
+  font-size: 15px;
+  background-color: #ffe400;
+  border: none;
+  border-radius: 25px;
+  color: #000;
+}
+
+.nav-top * + * {
+  border-left: 1px solid #d9d9d9;
+}
+
+.nav-top a {
+  font-size: 18px;
+}
+
+.search input {
+  border: none;
+  width: 80px;
+}
+
+.search i {
+  border-left: none;
+}
+
+.nav-bottom {
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+
+.nav-bottom li {
+  padding-left: 30px;
+}
+
+/*
+  ===========================================================
+                ARTICLES
+  ===========================================================
+*/
+
+.p {
+  line-height: 15px;
+}
+
+.category a {
+  background: red;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.debate img {
+  width: 65px;
+  height: 65px;
+}
+
+.info-container img {
+  width: 65px;
+  height: 65px;
+}
+
+.User img {
+  width: 65px;
+  height: 65px;
+}
+
+.info-container > p {
+  line-height: 15px;
+}
+
+.myturn,
+.story > * + * {
+  margin-top: 30px;
+  clear: left;
+}
+
+/*
+===========================================================
+                INTERNATIONAL NEWS
+ ==========================================================
+*/
+
+.us > section {
+  max-width: 390px;
+  max-height: 220px;
+}
+
+/*
+===========================================================
+                VS DIVISION
+ ==========================================================
+*/
+
+.c-vs::before,
+.c-vs::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #d9d9d9;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+
+.c-vs::before {
+  top: calc(50% - 2px);
+}
+
+.vs {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.myturn img,
+.culture-travel img {
+  max-width: 737px;
+  max-height: 737px;
+}
+
+.news-icon {
+  width: 29px;
+  height: 28px;
+}
+
+.related > article {
+  margin-top: 20px;
+}
+
+/*
+===========================================================
+                    FORM
+ ==========================================================
+*/
+
+.img-form-container img {
+  width: 170px;
+  height: 227px;
+  left: calc(35% - 85px);
+}
+
+.img-form-container img:last-child {
+  top: 17px;
+  left: 38%;
+}
+
+.form__info {
+  padding-top: 196px;
+}
+
+/*
+===========================================================
+                FOOTER
+ ==========================================================
+*/
+
+.top-footer i {
+  font-size: 26px;
+}
+
+.top-footer svg {
+  fill: #f72210;
+}
+
+@media screen and (min-width: 768px) {
+  .myturn img,
+  .culture-travel img {
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+  .features {
+    font-size: 14px;
+  }
+
+  .middle-section {
+    order: 1;
+  }
+
+  .story {
+    order: 1;
+  }
+
+  .img-form-container {
+    min-width: 220px;
+  }
+
+  .form__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+
+  .bg-body {
+    height: 245px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .brand svg {
+    width: 395px;
+    height: 60px;
+  }
+
+  .subs-btn {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1224px) {
+  .news__img {
+    min-width: 390px;
+    height: 220px;
+  }
+}
