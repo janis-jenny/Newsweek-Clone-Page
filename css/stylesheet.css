@@ -88,10 +88,10 @@ header {
 
 .search input {
   border: none;
-  width: 50px;
+  width: 80px;
 }
 
-.search {
+.search i {
   border-left: none;
 }
 
