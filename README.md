@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# The Next Web Page - Responsive design
+# The Next Web Page - Responsive design with Bootstrap
 
 > Seventh training project on Microverse HMTL/CSS curriculum done with Bootstrap [Newsweek Web Page](https://www.newsweek.com/)
 
